@@ -6,7 +6,6 @@ window.addEventListener("click", function (event) {
     event.target.dataset.action === "minus"
   ) {
     const counterWrapper = event.target.closest(".counter-wrapper");
-
     counter = counterWrapper.querySelector("[data-counter]");
   }
 
